@@ -8,7 +8,7 @@ export default function Layout({ children }: LayoutProps) {
   console.log('rendering');
   return (
     <>
-      <Sidebar />
+      <Sidebar id={8}/>
       <div className="ml-60">{children}</div>
     </>
   );
