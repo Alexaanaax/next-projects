@@ -2,7 +2,8 @@ import React from 'react';
 import Image from 'next/image';
 import SidebarItem from '@/app/components/sidebar-item';
 
-export interface SidebarProps {}
+export interface SidebarProps {
+}
 
 export default function Sidebar({}: SidebarProps) {
   return (
